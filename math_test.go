@@ -7,10 +7,10 @@ import (
 
 func TestSoma(t *testing.T) {
 
-	soma := Soma(5, 5)
+	res := Soma(15, 15)
 	// assert.Equal(t, 10, soma1, "Shoud be the same.")
 
-	if soma != 30 {
-		t.Error("Inavlid Result")
+	if res != 30 {
+		t.Error("Invalid Result: Expected %d, Actual %d", 30, res)
 	}
 }
