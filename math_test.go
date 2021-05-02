@@ -11,6 +11,6 @@ func TestSoma(t *testing.T) {
 	// assert.Equal(t, 10, soma1, "Shoud be the same.")
 
 	if res != 30 {
-		t.Error("Invalid Result: Expected %d, Actual %d", 30, res)
+		t.Error("Invalid Result")
 	}
 }
